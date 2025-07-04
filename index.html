@@ -37,50 +37,46 @@
         <div class="container align-items-center">
           <h5 class=" text-center mb-3">  Haz click en los botones para escuchar a los animales</h5>
             <div class="row m-2 justify-content-between align-items-center text-center">
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Leon')"> León </button>
+                
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Leon')"> León </button>
                 </div>
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Ñu')"> Ñu </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Nu')"> Ñu </button>
                 </div>
-               <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Jabali')"> Jabali</button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Jabali')"> Jabalí</button>
                 </div>
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Oso')"> Oso </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Oso')"> Oso </button>
                 </div>
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Serpiente')"> Serpiente </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Serpiente')"> Serpiente </button>
                 </div>
-
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Ciervo')"> Ciervo </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Ciervo')"> Ciervo </button>
                 </div>
-        
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Aguila')"> Aguila </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Aguila')"> Águila </button>
                 </div>
-                 <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Carabo')"> Carabo </button>
+                 <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Carabo')"> Cárabo </button>
                 </div>
-                 <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Carpintero')">Carpintero </button>
+                 <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Carpintero')">Carpintero </button>
                 </div>
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Rana')">Rana </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Rana')">Rana </button>
                 </div>
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Ballena')">Rorcual</button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Ballena')">Rorcual</button>
                 </div>
-                <div class="col-6 col-md-4 mb-3">
-                    <button type="button" class="btn  btn-danger border-2 border-black  w-100" onclick="playSound('Pinguino')">Pinguino </button>
+                <div class="col-4 mb-3">
+                    <button type="button" class="btn  btn-danger border-2 border-black  w-50" onclick="playSound('Pinguino')">Pingüino </button>
                 </div>
                 
             </div>
 
-        </div>
-        <div class="container">
-        
         </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
@@ -89,41 +85,61 @@
         crossorigin="anonymous"></script>
 
     <script>
-        const audios={
-            Leon: new Audio('resource/Sonido_Leon.mp3'),
-            Aguila: new Audio('resource/Sonido_Aguila.mp3'),
-            Ballena: new Audio('resource/Sonido_Ballena azul.mp3'),
-            Carabo: new Audio('resource/Sonido_Carabo.mp3'),
-            Carpintero: new Audio('resource/Sonido_Carpintero.mp3'),
-            Ciervo: new Audio('resource/Sonido_Ciervo.mp3'),
-            Jabali: new Audio('resource/Sonido_Jabali.mp3'),
-            Nu: new Audio('resource/Sonido_Ñu.m4a'),
-            Oso: new Audio('resource/Sonido_Oso.mp3'),
-            Pinguino: new Audio('resource/Sonido_Pinguino.mp3'),
-            Rana: new Audio('resource/Sonido_Rana.mp3'),
-            Serpiente: new Audio('resource/Sonido_Serpiente.mp3')
-        }
-        
-        function playSound(nombre) {
-      // Detiene todos los sonidos que puedan estar sonando
-      for (const key in audios) {
-        const audio = audios[key];
-        if (!audio.paused) {
-          audio.pause();
-          audio.currentTime = 0;
-        }
-      }
+    const audios = {
+        Leon: new Audio('resource/Sonido_Leon.mp3'),
+        Aguila: new Audio('resource/Sonido_Aguila.mp3'),
+        Ballena: new Audio('resource/Sonido_Ballena azul.mp3'),
+        Carabo: new Audio('resource/Sonido_Carabo.mp3'),
+        Carpintero: new Audio('resource/Sonido_Carpintero.mp3'),
+        Ciervo: new Audio('resource/Sonido_Ciervo.mp3'),
+        Jabali: new Audio('resource/Sonido_Jabali.mp3'),
+        Nu: new Audio('resource/Sonido_Ñu.mp3'),
+        Oso: new Audio('resource/Sonido_Oso.mp3'),
+        Pinguino: new Audio('resource/Sonido_Pinguino.mp3'),
+        Rana: new Audio('resource/Sonido_Rana.mp3'),
+        Serpiente: new Audio('resource/Sonido_Serpiente.mp3')
+    };
 
-      const nuevoAudio = audios[nombre];
-      if (!nuevoAudio) {
-        console.error(`No existe el sonido: ${nombre}`);
-        return;
-      }
-      nuevoAudio.currentTime = 0;
-      nuevoAudio.play();
+    // Animales que deben reproducirse dos veces
+    const repetirDosVeces = ['Oso', 'Aguila', 'Ballena', 'Pinguino', 'Ciervo', 'Serpiente', 'Jabali'];
+
+    function playSound(nombre) {
+        // Detiene todos los sonidos que puedan estar sonando
+        for (const key in audios) {
+            const audio = audios[key];
+            audio.pause();
+            audio.currentTime = 0;
+        }
+
+        const nuevoAudio = audios[nombre];
+        if (!nuevoAudio) {
+            console.error(`No existe el sonido: ${nombre}`);
+            return;
+        }
+
+        let repeatCount = 1; // reproducir una vez por defecto
+
+        if (repetirDosVeces.includes(nombre)) {
+            repeatCount = 2;
+        }
+
+        let playedTimes = 0;
+
+        const playAndHandle = () => {
+            nuevoAudio.currentTime = 0;
+            nuevoAudio.play();
+            playedTimes++;
+        };
+
+        nuevoAudio.onended = () => {
+            if (playedTimes < repeatCount) {
+                playAndHandle();
+            }
+        };
+
+        playAndHandle();
     }
-        
-    </script>
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
